@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import { Component } from 'vue-property-decorator'
 import { ButtonCounter } from './button-counter.component'
+import { DashboardItemComponent } from './app/components/dashboard-item.component'
 
 @Component({
-  components: { ButtonCounter },
+  components: { ButtonCounter, DashboardItemComponent },
   template: `
     <div>
       <h1>Simple VueJs Typescript Starter</h1>
@@ -15,6 +16,7 @@ import { ButtonCounter } from './button-counter.component'
 
       <h2>Button Component</h2>
     	<button-counter @clicked="onButtonClicked" :count="count"></button-counter>
+      <dashboard-item></dashboard-item> 
     </div>
   `
 })
