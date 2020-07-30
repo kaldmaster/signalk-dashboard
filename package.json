@@ -1,0 +1,9 @@
+{
+  "name": "vuejs-starter-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "vue": "^2.6.4",
+    "vue-property-decorator": "^7.3.0"
+  }
+}
